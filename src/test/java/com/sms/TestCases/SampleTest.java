@@ -7,5 +7,9 @@ public class SampleTest {
 	public void sample() {
 		System.out.println("--- sample ----");
 	}
+	@Test
+	public void sample1() {
+		System.out.println("--- sample1 ---");
+	}
 
 }
