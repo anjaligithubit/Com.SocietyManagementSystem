@@ -3,7 +3,7 @@ package com.sms.TestCases;
 import org.testng.annotations.Test;
 
 public class SampleTest {
-	@Test
+	@Test(groups="smoke")
 	public void sample() {
 		System.out.println("--- sample ----");
 	}
