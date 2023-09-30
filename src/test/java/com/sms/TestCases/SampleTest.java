@@ -15,5 +15,10 @@ public class SampleTest {
 	public void sample3() {
 		System.out.println("--- sample3 ----");
 	}
+	@Test
+	public void sample4() {
+		System.out.println("--- sample4----");
+	}
+	
 
 }
