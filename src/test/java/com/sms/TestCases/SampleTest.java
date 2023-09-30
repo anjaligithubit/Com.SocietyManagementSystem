@@ -11,7 +11,7 @@ public class SampleTest {
 	public void sample2() {
 		System.out.println("--- sample2 ---");
 	}
-	@Test
+	@Test(groups = "smoke")
 	public void sample3() {
 		System.out.println("--- sample3 ----");
 	}
